@@ -69,7 +69,6 @@ class LoginPage(unittest.TestCase):
         s1.select_by_visible_text("o3")  # 选择text="o3"的值
 
 
-
 """涉及框架：有框架，先进入框架，<frame></frame>"""
 '''
 eg：menu-frame框架优先 + main-frame框架
