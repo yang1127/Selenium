@@ -1,0 +1,88 @@
+{
+  "uid" : "1b88fd0f50e15552",
+  "name" : "test_01_login",
+  "fullName" : "TestCase.test_vue.Test_Login_Vue#test_01_login",
+  "historyId" : "3ac5a797f6e4915dedbb644a3353598a",
+  "time" : {
+    "start" : 1646199822445,
+    "stop" : 1646199825977,
+    "duration" : 3532
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1646199820682,
+      "stop" : 1646199822444,
+      "duration" : 1762
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1646199827585,
+      "stop" : 1646199829586,
+      "duration" : 2001
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_vue"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login_Vue"
+  }, {
+    "name" : "host",
+    "value" : "YZQ.local"
+  }, {
+    "name" : "thread",
+    "value" : "12697-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_vue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b88fd0f50e15552.json",
+  "parameterValues" : [ ]
+}

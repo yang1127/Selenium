@@ -1,0 +1,8 @@
+PyHamcrest
+pytest
+httprunner==3.1.6
+allure-pytest==2.9.45
+pytest-rerunfailures==9.0
+retry
+jsonpath
+ddt
