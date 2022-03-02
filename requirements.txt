@@ -1,8 +1,9 @@
 PyHamcrest
-pytest
+pytest~=5.4.3
 httprunner==3.1.6
 allure-pytest==2.9.45
 pytest-rerunfailures==9.0
 retry
 jsonpath
 ddt
+selenium~=4.1.2
