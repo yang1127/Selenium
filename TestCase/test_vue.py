@@ -32,8 +32,8 @@ class Test_Login_Vue():
         file.select_file("0")
 
     def teardown_class(self) -> None:
-        time.sleep(5)
-        self.driver.quit()
+        time.sleep(2)
+        self.driver.close()
 
 
 
