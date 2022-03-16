@@ -1,0 +1,92 @@
+{
+  "uid" : "cbcc903800ba2c51",
+  "name" : "登录测试用例",
+  "fullName" : "TestCase.test_vue.Test_Login_Vue#test_01_login",
+  "historyId" : "3ac5a797f6e4915dedbb644a3353598a",
+  "time" : {
+    "start" : 1647429481483,
+    "stop" : 1647429485978,
+    "duration" : 4495
+  },
+  "description" : "登录测试用例的一些描述",
+  "descriptionHtml" : "<p>登录测试用例的一些描述</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1647429479579,
+      "stop" : 1647429481481,
+      "duration" : 1902
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1647429492323,
+      "stop" : 1647429494364,
+      "duration" : 2041
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=99.0.4844.51)\nStacktrace:\n0   chromedriver                        0x000000010a02a159 chromedriver + 5120345\n1   chromedriver                        0x0000000109fb7b13 chromedriver + 4651795\n2   chromedriver                        0x0000000109ba7e68 chromedriver + 392808\n3   chromedriver                        0x0000000109b8818c chromedriver + 262540\n4   chromedriver                        0x0000000109bfe0cb chromedriver + 745675\n5   chromedriver                        0x0000000109c02530 chromedriver + 763184\n6   chromedriver                        0x0000000109bfab08 chromedriver + 731912\n7   chromedriver                        0x0000000109bd05dd chromedriver + 558557\n8   chromedriver                        0x0000000109bd14f5 chromedriver + 562421\n9   chromedriver                        0x0000000109fe738d chromedriver + 4846477\n10  chromedriver                        0x000000010a00121c chromedriver + 4952604\n11  chromedriver                        0x000000010a006a12 chromedriver + 4975122\n12  chromedriver                        0x000000010a001b4a chromedriver + 4954954\n13  chromedriver                        0x0000000109fdc5b0 chromedriver + 4801968\n14  chromedriver                        0x000000010a01bf78 chromedriver + 5062520\n15  chromedriver                        0x000000010a01c0ff chromedriver + 5062911\n16  chromedriver                        0x000000010a031545 chromedriver + 5150021\n17  libsystem_pthread.dylib             0x00007fff2030f8fc _pthread_start + 224\n18  libsystem_pthread.dylib             0x00007fff2030b443 thread_start + 15\n\n",
+    "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/allure_commons/_allure.py\", line 200, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/_pytest/fixtures.py\", line 800, in _teardown_yield_fixture\n    next(it)\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/_pytest/python.py\", line 705, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, self.obj)\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/_pytest/python.py\", line 632, in _call_with_optional_argument\n    func(arg)\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/TestCase/test_vue.py\", line 76, in teardown_class\n    self.driver.close()\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py\", line 938, in close\n    self.execute(Command.CLOSE)\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py\", line 425, in execute\n    self.error_handler.check_response(response)\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py\", line 247, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_vue"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login_Vue"
+  }, {
+    "name" : "host",
+    "value" : "YZQ.local"
+  }, {
+    "name" : "thread",
+    "value" : "35281-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_vue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cbcc903800ba2c51.json",
+  "parameterValues" : [ ]
+}

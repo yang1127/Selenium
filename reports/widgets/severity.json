@@ -1,51 +1,31 @@
 [ {
-  "uid" : "72816291e5891a6e",
-  "name" : "test_01_login",
+  "uid" : "3803bd4196b732a2",
+  "name" : "输入正确用例，可以下载",
   "time" : {
-    "start" : 1647309351404,
-    "stop" : 1647309360581,
-    "duration" : 9177
+    "start" : 1647429485981,
+    "stop" : 1647429488996,
+    "duration" : 3015
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bb2d0e3ac338193",
+  "name" : "输入正确用例，可以下载",
+  "time" : {
+    "start" : 1647429488998,
+    "stop" : 1647429492322,
+    "duration" : 3324
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "3882bea52e03e5f7",
-  "name" : "test_02_file[file_name_info0]",
+  "uid" : "c9fdcac738cdff29",
+  "name" : "登录测试用例",
   "time" : {
-    "start" : 1647309360701,
-    "stop" : 1647309360701,
-    "duration" : 0
+    "start" : 1647430183237,
+    "stop" : 1647430186588,
+    "duration" : 3351
   },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "14b7435d26b027b1",
-  "name" : "test_02_file[file_name_info2]",
-  "time" : {
-    "start" : 1647309360709,
-    "stop" : 1647309360709,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "762d79a29707cdb9",
-  "name" : "test_02_file[file_name_info1]",
-  "time" : {
-    "start" : 1647309360705,
-    "stop" : 1647309360705,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "1ad20a1c26b1f70f",
-  "name" : "test_02_file[file_name_info3]",
-  "time" : {
-    "start" : 1647309360713,
-    "stop" : 1647309360713,
-    "duration" : 0
-  },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 } ]

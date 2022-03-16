@@ -1,0 +1,93 @@
+{
+  "uid" : "e48c57c02d550d7c",
+  "name" : "输入正确用例，可以下载",
+  "fullName" : "TestCase.test_vue.Test_Login_Vue#test_02_file",
+  "historyId" : "4f977ac249d94f9cc2eae1e786cb6e41",
+  "time" : {
+    "start" : 1647428702943,
+    "stop" : 1647428706176,
+    "duration" : 3233
+  },
+  "description" : "输入正确用例，可以下载",
+  "descriptionHtml" : "<p>输入正确用例，可以下载</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1647428693717,
+      "stop" : 1647428695732,
+      "duration" : 2015
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1647428709644,
+      "stop" : 1647428711785,
+      "duration" : 2141
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_vue"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login_Vue"
+  }, {
+    "name" : "host",
+    "value" : "YZQ.local"
+  }, {
+    "name" : "thread",
+    "value" : "34441-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_vue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "file_name_info",
+    "value" : "[1, '输入正确用例，可以下载', 0, 'y', None]"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e48c57c02d550d7c.json",
+  "parameterValues" : [ "[1, '输入正确用例，可以下载', 0, 'y', None]" ]
+}

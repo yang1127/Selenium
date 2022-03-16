@@ -8,90 +8,56 @@
       "children" : [ {
         "name" : "Test_Login_Vue",
         "children" : [ {
-          "name" : "test_01_login",
-          "uid" : "72816291e5891a6e",
+          "name" : "输入正确用例，可以下载",
+          "uid" : "3803bd4196b732a2",
           "parentUid" : "8ba9c9b7dd29be9a97074904c33d2c0b",
-          "status" : "broken",
+          "status" : "passed",
           "time" : {
-            "start" : 1647309351404,
-            "stop" : 1647309360581,
-            "duration" : 9177
+            "start" : 1647429485981,
+            "stop" : 1647429488996,
+            "duration" : 3015
           },
           "flaky" : false,
           "newFailed" : false,
           "newPassed" : false,
           "newBroken" : false,
-          "retriesCount" : 2,
+          "retriesCount" : 12,
+          "retriesStatusChange" : true,
+          "parameters" : [ "[1, '输入正确用例，可以下载', 0, 'y', None]" ]
+        }, {
+          "name" : "输入正确用例，可以下载",
+          "uid" : "2bb2d0e3ac338193",
+          "parentUid" : "8ba9c9b7dd29be9a97074904c33d2c0b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1647429488998,
+            "stop" : 1647429492322,
+            "duration" : 3324
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 12,
+          "retriesStatusChange" : true,
+          "parameters" : [ "[2, '输入正确用例，可以下载', 1, 'y', None]" ]
+        }, {
+          "name" : "登录测试用例",
+          "uid" : "c9fdcac738cdff29",
+          "parentUid" : "8ba9c9b7dd29be9a97074904c33d2c0b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647430183237,
+            "stop" : 1647430186588,
+            "duration" : 3351
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 14,
           "retriesStatusChange" : true,
           "parameters" : [ ]
-        }, {
-          "name" : "test_02_file[file_name_info0]",
-          "uid" : "3882bea52e03e5f7",
-          "parentUid" : "8ba9c9b7dd29be9a97074904c33d2c0b",
-          "status" : "broken",
-          "time" : {
-            "start" : 1647309360701,
-            "stop" : 1647309360701,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 2,
-          "retriesStatusChange" : true,
-          "parameters" : [ "[1, '输入正确的文件名，提示下载成功', 0, 'y', None, None]" ]
-        }, {
-          "name" : "test_02_file[file_name_info1]",
-          "uid" : "762d79a29707cdb9",
-          "parentUid" : "8ba9c9b7dd29be9a97074904c33d2c0b",
-          "status" : "broken",
-          "time" : {
-            "start" : 1647309360705,
-            "stop" : 1647309360705,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 2,
-          "retriesStatusChange" : false,
-          "parameters" : [ "[2, '输入正确的文件名，提示下载成功', 10000000000, 'y', None, None]" ]
-        }, {
-          "name" : "test_02_file[file_name_info2]",
-          "uid" : "14b7435d26b027b1",
-          "parentUid" : "8ba9c9b7dd29be9a97074904c33d2c0b",
-          "status" : "broken",
-          "time" : {
-            "start" : 1647309360709,
-            "stop" : 1647309360709,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ "[None, None, None, None, None, None]" ]
-        }, {
-          "name" : "test_02_file[file_name_info3]",
-          "uid" : "1ad20a1c26b1f70f",
-          "parentUid" : "8ba9c9b7dd29be9a97074904c33d2c0b",
-          "status" : "broken",
-          "time" : {
-            "start" : 1647309360713,
-            "stop" : 1647309360713,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ "[None, None, None, None, None, None]" ]
         } ],
         "uid" : "8ba9c9b7dd29be9a97074904c33d2c0b"
       } ],

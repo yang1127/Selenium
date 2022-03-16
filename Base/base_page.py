@@ -1,3 +1,5 @@
+import logging
+
 from selenium import webdriver
 
 from selenium.webdriver.common.by import By
@@ -8,6 +10,7 @@ class BasePage:
     # 每个页面都要写 __init__
     # 由于页面对象的类都要调用基础的类，所以在这块构造，即每个页面都继承了 __init__
     def __init__(self, driver):
+        self.log = logging.getLogger()  # 初始化log
         self.driver = driver
 
     '''

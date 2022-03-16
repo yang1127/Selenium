@@ -1,0 +1,90 @@
+{
+  "uid" : "a54faf810a6c29be",
+  "name" : "登录测试用例",
+  "fullName" : "TestCase.test_vue.Test_Login_Vue#test_01_login",
+  "historyId" : "3ac5a797f6e4915dedbb644a3353598a",
+  "time" : {
+    "start" : 1647429157290,
+    "stop" : 1647429161192,
+    "duration" : 3902
+  },
+  "description" : "登录测试用例的一些描述",
+  "descriptionHtml" : "<p>登录测试用例的一些描述</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1647429155328,
+      "stop" : 1647429157288,
+      "duration" : 1960
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1647429167448,
+      "stop" : 1647429169588,
+      "duration" : 2140
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_vue"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login_Vue"
+  }, {
+    "name" : "host",
+    "value" : "YZQ.local"
+  }, {
+    "name" : "thread",
+    "value" : "34936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_vue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a54faf810a6c29be.json",
+  "parameterValues" : [ ]
+}

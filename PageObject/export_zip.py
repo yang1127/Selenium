@@ -4,6 +4,8 @@ from selenium.webdriver.remote import switch_to
 from Base.base_page import BasePage
 
 
+import time
+
 class Export_Zip(BasePage):
 
     """元素定位"""

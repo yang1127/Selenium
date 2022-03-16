@@ -1,0 +1,110 @@
+{
+  "uid" : "f4d545f674483aeb",
+  "name" : "输入正确用例，可以下载",
+  "fullName" : "TestCase.test_vue.Test_Login_Vue#test_02_file",
+  "historyId" : "d7f73096832c045b1e34718b57c5e48a",
+  "time" : {
+    "start" : 1647344006580,
+    "stop" : 1647344009837,
+    "duration" : 3257
+  },
+  "description" : "输入正确用例，可以下载",
+  "descriptionHtml" : "<p>输入正确用例，可以下载</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1647343998976,
+      "stop" : 1647344000964,
+      "duration" : 1988
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "输入正确用例，可以下载",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "93582def8ef1bf9c",
+      "name" : "./images/2022-03-15-19-33-29.png",
+      "source" : "93582def8ef1bf9c.png",
+      "type" : "image/png",
+      "size" : 404334
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1647344009841,
+      "stop" : 1647344012000,
+      "duration" : 2159
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_vue"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login_Vue"
+  }, {
+    "name" : "host",
+    "value" : "YZQ.local"
+  }, {
+    "name" : "thread",
+    "value" : "16868-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_vue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "file_name_info",
+    "value" : "[2, '输入正确用例，可以下载', 1, 'y', None]"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4d545f674483aeb.json",
+  "parameterValues" : [ "[2, '输入正确用例，可以下载', 1, 'y', None]" ]
+}
