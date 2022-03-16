@@ -1,0 +1,80 @@
+{
+  "uid" : "82c8ce0d8370c2c4",
+  "name" : "test_02_file[file_name_info2]",
+  "fullName" : "TestCase.test_vue.Test_Login_Vue#test_02_file",
+  "historyId" : "c5a62fc1f8d1828e03df3941bf28128b",
+  "time" : {
+    "start" : 1647331748457,
+    "stop" : 1647331748457,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Can not connect to the Service chromedriver",
+  "statusTrace" : "self = <class 'TestCase.test_vue.Test_Login_Vue'>\n\n    def setup_class(self) -> None:\n        # 打开浏览器\n        global driver\n>       self.driver = webdriver.Chrome()\n\nTestCase/test_vue.py:22: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nvenv/lib/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py:70: in __init__\n    super(WebDriver, self).__init__(DesiredCapabilities.CHROME['browserName'], \"goog\",\nvenv/lib/python3.9/site-packages/selenium/webdriver/chromium/webdriver.py:90: in __init__\n    self.service.start()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.service.Service object at 0x7f8d7fa33e50>\n\n    def start(self):\n        \"\"\"\n        Starts the Service.\n    \n        :Exceptions:\n         - WebDriverException : Raised either when it can't start the service\n           or when it can't connect to the service\n        \"\"\"\n        try:\n            cmd = [self.path]\n            cmd.extend(self.command_line_args())\n            self.process = subprocess.Popen(cmd, env=self.env,\n                                            close_fds=system() != 'Windows',\n                                            stdout=self.log_file,\n                                            stderr=self.log_file,\n                                            stdin=PIPE,\n                                            creationflags=self.creationflags)\n        except TypeError:\n            raise\n        except OSError as err:\n            if err.errno == errno.ENOENT:\n                raise WebDriverException(\n                    \"'%s' executable needs to be in PATH. %s\" % (\n                        os.path.basename(self.path), self.start_error_message)\n                )\n            elif err.errno == errno.EACCES:\n                raise WebDriverException(\n                    \"'%s' executable may have wrong permissions. %s\" % (\n                        os.path.basename(self.path), self.start_error_message)\n                )\n            else:\n                raise\n        except Exception as e:\n            raise WebDriverException(\n                \"The executable %s needs to be available in the path. %s\\n%s\" %\n                (os.path.basename(self.path), self.start_error_message, str(e)))\n        count = 0\n        while True:\n            self.assert_process_still_running()\n            if self.is_connectable():\n                break\n    \n            count += 1\n            sleep(0.5)\n            if count == 60:\n>               raise WebDriverException(\"Can not connect to the Service %s\" % self.path)\nE               selenium.common.exceptions.WebDriverException: Message: Can not connect to the Service chromedriver\n\nvenv/lib/python3.9/site-packages/selenium/webdriver/common/service.py:105: WebDriverException",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1647331717697,
+      "stop" : 1647331748280,
+      "duration" : 30583
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Can not connect to the Service chromedriver\n\n",
+    "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/_pytest/fixtures.py\", line 964, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/_pytest/fixtures.py\", line 788, in call_fixture_func\n    res = next(it)\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/_pytest/python.py\", line 701, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, self.obj)\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/_pytest/python.py\", line 632, in _call_with_optional_argument\n    func(arg)\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/TestCase/test_vue.py\", line 22, in setup_class\n    self.driver = webdriver.Chrome()\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py\", line 70, in __init__\n    super(WebDriver, self).__init__(DesiredCapabilities.CHROME['browserName'], \"goog\",\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/selenium/webdriver/chromium/webdriver.py\", line 90, in __init__\n    self.service.start()\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/selenium/webdriver/common/service.py\", line 105, in start\n    raise WebDriverException(\"Can not connect to the Service %s\" % self.path)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_vue"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login_Vue"
+  }, {
+    "name" : "host",
+    "value" : "YZQ.local"
+  }, {
+    "name" : "thread",
+    "value" : "9835-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_vue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "file_name_info",
+    "value" : "[None, None, None, None, None, None]"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82c8ce0d8370c2c4.json",
+  "parameterValues" : [ "[None, None, None, None, None, None]" ]
+}

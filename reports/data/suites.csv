@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Tue Mar 15 09:56:00 CST 2022","Tue Mar 15 09:56:00 CST 2022","0","TestCase","test_vue","Test_Login_Vue","","","test_02_file[file_name_info1]",""
+"broken","Tue Mar 15 09:56:00 CST 2022","Tue Mar 15 09:56:00 CST 2022","0","TestCase","test_vue","Test_Login_Vue","","","test_02_file[file_name_info0]",""
+"broken","Tue Mar 15 09:55:51 CST 2022","Tue Mar 15 09:56:00 CST 2022","9177","TestCase","test_vue","Test_Login_Vue","","","test_01_login",""
+"broken","Tue Mar 15 09:56:00 CST 2022","Tue Mar 15 09:56:00 CST 2022","0","TestCase","test_vue","Test_Login_Vue","","","test_02_file[file_name_info3]",""
+"broken","Tue Mar 15 09:56:00 CST 2022","Tue Mar 15 09:56:00 CST 2022","0","TestCase","test_vue","Test_Login_Vue","","","test_02_file[file_name_info2]",""

@@ -1,0 +1,116 @@
+{
+  "uid" : "b357b0bebaa8fa59",
+  "name" : "test_01_login",
+  "fullName" : "TestCase.test_vue.Test_Login_Vue#test_01_login",
+  "historyId" : "3ac5a797f6e4915dedbb644a3353598a",
+  "time" : {
+    "start" : 1647331481856,
+    "stop" : 1647331481856,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Can not connect to the Service chromedriver",
+  "statusTrace" : "self = <class 'TestCase.test_vue.Test_Login_Vue'>\n\n    def setup_class(self) -> None:\n        # 打开浏览器\n        global driver\n>       self.driver = webdriver.Chrome()\n\nTestCase/test_vue.py:22: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nvenv/lib/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py:70: in __init__\n    super(WebDriver, self).__init__(DesiredCapabilities.CHROME['browserName'], \"goog\",\nvenv/lib/python3.9/site-packages/selenium/webdriver/chromium/webdriver.py:90: in __init__\n    self.service.start()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.service.Service object at 0x7fd9ec34fdf0>\n\n    def start(self):\n        \"\"\"\n        Starts the Service.\n    \n        :Exceptions:\n         - WebDriverException : Raised either when it can't start the service\n           or when it can't connect to the service\n        \"\"\"\n        try:\n            cmd = [self.path]\n            cmd.extend(self.command_line_args())\n            self.process = subprocess.Popen(cmd, env=self.env,\n                                            close_fds=system() != 'Windows',\n                                            stdout=self.log_file,\n                                            stderr=self.log_file,\n                                            stdin=PIPE,\n                                            creationflags=self.creationflags)\n        except TypeError:\n            raise\n        except OSError as err:\n            if err.errno == errno.ENOENT:\n                raise WebDriverException(\n                    \"'%s' executable needs to be in PATH. %s\" % (\n                        os.path.basename(self.path), self.start_error_message)\n                )\n            elif err.errno == errno.EACCES:\n                raise WebDriverException(\n                    \"'%s' executable may have wrong permissions. %s\" % (\n                        os.path.basename(self.path), self.start_error_message)\n                )\n            else:\n                raise\n        except Exception as e:\n            raise WebDriverException(\n                \"The executable %s needs to be available in the path. %s\\n%s\" %\n                (os.path.basename(self.path), self.start_error_message, str(e)))\n        count = 0\n        while True:\n            self.assert_process_still_running()\n            if self.is_connectable():\n                break\n    \n            count += 1\n            sleep(0.5)\n            if count == 60:\n>               raise WebDriverException(\"Can not connect to the Service %s\" % self.path)\nE               selenium.common.exceptions.WebDriverException: Message: Can not connect to the Service chromedriver\n\nvenv/lib/python3.9/site-packages/selenium/webdriver/common/service.py:105: WebDriverException",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1647331481856,
+      "stop" : 1647331512494,
+      "duration" : 30638
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Can not connect to the Service chromedriver\n\n",
+    "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/_pytest/fixtures.py\", line 964, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/_pytest/fixtures.py\", line 788, in call_fixture_func\n    res = next(it)\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/_pytest/python.py\", line 701, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, self.obj)\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/_pytest/python.py\", line 632, in _call_with_optional_argument\n    func(arg)\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/TestCase/test_vue.py\", line 22, in setup_class\n    self.driver = webdriver.Chrome()\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py\", line 70, in __init__\n    super(WebDriver, self).__init__(DesiredCapabilities.CHROME['browserName'], \"goog\",\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/selenium/webdriver/chromium/webdriver.py\", line 90, in __init__\n    self.service.start()\n  File \"/Users/yangzhiqi/PycharmProjects/Selenium/venv/lib/python3.9/site-packages/selenium/webdriver/common/service.py\", line 105, in start\n    raise WebDriverException(\"Can not connect to the Service %s\" % self.path)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_vue"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login_Vue"
+  }, {
+    "name" : "host",
+    "value" : "YZQ.local"
+  }, {
+    "name" : "thread",
+    "value" : "9543-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_vue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bb8fa129ad6913f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647309437649,
+        "stop" : 1647309470888,
+        "duration" : 33239
+      }
+    }, {
+      "uid" : "38a7b6d5ac7b6798",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=99.0.4844.51)\nStacktrace:\n0   chromedriver                        0x00000001090dfee9 chromedriver + 5013225\n1   chromedriver                        0x000000010906b1d3 chromedriver + 4534739\n2   chromedriver                        0x0000000108c41a68 chromedriver + 170600\n3   chromedriver                        0x0000000108c2310e chromedriver + 45326\n4   chromedriver                        0x0000000108c96dbc chromedriver + 519612\n5   chromedriver                        0x0000000108ca570f chromedriver + 579343\n6   chromedriver                        0x0000000108c936d3 chromedriver + 505555\n7   chromedriver                        0x0000000108c6976e chromedriver + 333678\n8   chromedriver                        0x0000000108c6a745 chromedriver + 337733\n9   chromedriver                        0x000000010909befe chromedriver + 4734718\n10  chromedriver                        0x00000001090b5a19 chromedriver + 4839961\n11  chromedriver                        0x00000001090bb1c8 chromedriver + 4862408\n12  chromedriver                        0x00000001090b63aa chromedriver + 4842410\n13  chromedriver                        0x0000000109090a01 chromedriver + 4688385\n14  chromedriver                        0x00000001090d1538 chromedriver + 4953400\n15  chromedriver                        0x00000001090d16c1 chromedriver + 4953793\n16  chromedriver                        0x00000001090e7225 chromedriver + 5042725\n17  libsystem_pthread.dylib             0x00007fff2030f8fc _pthread_start + 224\n18  libsystem_pthread.dylib             0x00007fff2030b443 thread_start + 15",
+      "time" : {
+        "start" : 1647309351404,
+        "stop" : 1647309360581,
+        "duration" : 9177
+      }
+    }, {
+      "uid" : "f79bd0ca383042e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646293849757,
+        "stop" : 1646293852924,
+        "duration" : 3167
+      }
+    }, {
+      "uid" : "2b4c333f6276a2a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646293799509,
+        "stop" : 1646293804739,
+        "duration" : 5230
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b357b0bebaa8fa59.json",
+  "parameterValues" : [ ]
+}

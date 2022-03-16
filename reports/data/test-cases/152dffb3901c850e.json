@@ -1,0 +1,93 @@
+{
+  "uid" : "152dffb3901c850e",
+  "name" : "test_02_file[file_name_info1]",
+  "fullName" : "TestCase.test_vue.Test_Login_Vue#test_02_file",
+  "historyId" : "d7f73096832c045b1e34718b57c5e48a",
+  "time" : {
+    "start" : 1647309470969,
+    "stop" : 1647309470969,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "ValueError: too many values to unpack (expected 5)",
+  "statusTrace" : "self = <TestCase.test_vue.Test_Login_Vue object at 0x7fa7c7432b80>\nfile_name_info = [2, '输入正确的文件名，提示下载成功', 10000000000, 'y', None, None]\n\n    @pytest.mark.parametrize(\"file_name_info\", read_excel(\"./Data/data.xlsx\", \"export\"))\n    def test_02_file(self, file_name_info):\n        # print(file_name_info)\n>       index, case_name, file_name, is_exe, result = file_name_info\nE       ValueError: too many values to unpack (expected 5)\n\nTestCase/test_vue.py:33: ValueError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1647309435931,
+      "stop" : 1647309437648,
+      "duration" : 1717
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1647309470979,
+      "stop" : 1647309473158,
+      "duration" : 2179
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_vue"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login_Vue"
+  }, {
+    "name" : "host",
+    "value" : "YZQ.local"
+  }, {
+    "name" : "thread",
+    "value" : "3004-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_vue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "file_name_info",
+    "value" : "[2, '输入正确的文件名，提示下载成功', 10000000000, 'y', None, None]"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "152dffb3901c850e.json",
+  "parameterValues" : [ "[2, '输入正确的文件名，提示下载成功', 10000000000, 'y', None, None]" ]
+}

@@ -1,0 +1,212 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "localhost",
+    "children" : [ {
+      "name" : "62457-MainThread",
+      "children" : [ {
+        "name" : "test_01_login",
+        "uid" : "1ae8dc789b120f8d",
+        "parentUid" : "228161988385a255b4972397551f19fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646293849757,
+          "stop" : 1646293852924,
+          "duration" : 3167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02_file[file_name_info1]",
+        "uid" : "9b538d78b1e76af4",
+        "parentUid" : "228161988385a255b4972397551f19fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646293856465,
+          "stop" : 1646293859440,
+          "duration" : 2975
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[2, '输入正确的文件名，提示下载成功', 1, 'y', None]" ]
+      }, {
+        "name" : "test_02_file[file_name_info0]",
+        "uid" : "70961139c2909096",
+        "parentUid" : "228161988385a255b4972397551f19fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646293852928,
+          "stop" : 1646293856461,
+          "duration" : 3533
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[1, '输入正确的文件名，提示下载成功', 0, 'y', None]" ]
+      } ],
+      "uid" : "228161988385a255b4972397551f19fa"
+    }, {
+      "name" : "62398-MainThread",
+      "children" : [ {
+        "name" : "test_02_file[file_name_info0]",
+        "uid" : "4f40ebb68e8b37c2",
+        "parentUid" : "fdc373ccfb4c85f9673b2f41a1a365ad",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646293804742,
+          "stop" : 1646293809487,
+          "duration" : 4745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[1, '输入正确的文件名，提示下载成功', 0, 'y', None]" ]
+      }, {
+        "name" : "test_02_file[file_name_info1]",
+        "uid" : "14ddcfb21620b176",
+        "parentUid" : "fdc373ccfb4c85f9673b2f41a1a365ad",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646293809711,
+          "stop" : 1646293810957,
+          "duration" : 1246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[2, '输入正确的文件名，提示下载成功', 1, 'y', None]" ]
+      }, {
+        "name" : "test_01_login",
+        "uid" : "2b7b5f732b5c9cbf",
+        "parentUid" : "fdc373ccfb4c85f9673b2f41a1a365ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646293799509,
+          "stop" : 1646293804739,
+          "duration" : 5230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fdc373ccfb4c85f9673b2f41a1a365ad"
+    } ],
+    "uid" : "be30f600e0434356d35178c8efd2dc81"
+  }, {
+    "name" : "YZQ.local",
+    "children" : [ {
+      "name" : "2877-MainThread",
+      "children" : [ {
+        "name" : "test_02_file[file_name_info3]",
+        "uid" : "1ad20a1c26b1f70f",
+        "parentUid" : "be68f74631c599d636c4a9dd602b224e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647309360713,
+          "stop" : 1647309360713,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[None, None, None, None, None, None]" ]
+      }, {
+        "name" : "test_02_file[file_name_info2]",
+        "uid" : "14b7435d26b027b1",
+        "parentUid" : "be68f74631c599d636c4a9dd602b224e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647309360709,
+          "stop" : 1647309360709,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[None, None, None, None, None, None]" ]
+      }, {
+        "name" : "test_02_file[file_name_info0]",
+        "uid" : "3882bea52e03e5f7",
+        "parentUid" : "be68f74631c599d636c4a9dd602b224e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647309360701,
+          "stop" : 1647309360701,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ "[1, '输入正确的文件名，提示下载成功', 0, 'y', None, None]" ]
+      }, {
+        "name" : "test_02_file[file_name_info1]",
+        "uid" : "762d79a29707cdb9",
+        "parentUid" : "be68f74631c599d636c4a9dd602b224e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647309360705,
+          "stop" : 1647309360705,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[2, '输入正确的文件名，提示下载成功', 10000000000, 'y', None, None]" ]
+      }, {
+        "name" : "test_01_login",
+        "uid" : "72816291e5891a6e",
+        "parentUid" : "be68f74631c599d636c4a9dd602b224e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647309351404,
+          "stop" : 1647309360581,
+          "duration" : 9177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "be68f74631c599d636c4a9dd602b224e"
+    } ],
+    "uid" : "e7df3120c9871f59d765d0a3399208fc"
+  } ]
+}
