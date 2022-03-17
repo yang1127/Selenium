@@ -35,6 +35,7 @@ class Test_Login_Vue():
         allure.dynamic.description("登录测试用例的一些描述")
         login = LoginPage(self.driver)  # 实例化对象
         login.login_vue()
+
     '''
     @pytest.mark.parametrize("file_name_info", read_excel("/Users/yangzhiqi/PycharmProjects/Selenium/Data/data.xlsx", "export"))
     def test_02_file(self, file_name_info):
@@ -71,13 +72,16 @@ class Test_Login_Vue():
                 stream = f.read()
                 allure.attach(body=stream, name=image_path, attachment_type=allure.attachment_type.PNG)
     '''
+    
     def teardown_class(self) -> None:
         time.sleep(2)
         self.driver.close()
         self.log.info("======关闭浏览器======")  # 加入log
 
 
+'''
 if __name__ == '__main__':
     Test_Login_Vue().test_01_login()
+'''
 
 
